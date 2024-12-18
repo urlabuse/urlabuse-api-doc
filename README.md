@@ -89,7 +89,7 @@ API_URL="https://urlabuse.com/get_url"
 TOKEN="YOUR-API-TOKEN"
 URL="https://iamphishing.com/login.php"
 REPORTER=mycompany
-curl -X POST $API_URL -d "token=$TOKEN" -d 'url=$URL' -d 'reporter=$REPORTER'
+curl -X POST $API_URL -d "token=$TOKEN" -d "url=$URL" -d "reporter=$REPORTER"
 ```
 
 Or you can use the Python code provided for the previous example.
